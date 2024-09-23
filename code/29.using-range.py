@@ -1,7 +1,7 @@
 #if you want to iterate certain number of time, we can use the range function
 my_range = range(10) # start and stop value can specify
 
-print(my_range) #range(0,10)
+print(my_range) #range(0,9)
 print(list(my_range)) # [0,1,2,3,4,5,6,7,8,9]
 
 # full way of creating range
@@ -15,7 +15,7 @@ while count <= 4:
     print("looping")
     count += 1
 
-# not needed to worry about incrementing a counter otr potentially falling to an infinte loop by using range function.
+# not needed to worry about incrementing a counter or potentially falling to an infinte loop by using range function.
 
 print("\n")
 print("for loop with range function")
